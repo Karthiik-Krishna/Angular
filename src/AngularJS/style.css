@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    background-color: blanchedalmond;
+    width: 90%;
+    margin: auto;
+}
+
+.logo-container {
+    flex: 1;
+    background-color: rgb(226, 15, 15);
+}
+
+nav {
+    flex: 2;
+    background-color: rgb(16, 216, 16);
+}
+
+.nav-links {
+    display: flex;
+    background-color: rgb(23, 23, 221);
+}
+
+p {
+    flex: 1;
+    -webkit-background-clip: text;
+}

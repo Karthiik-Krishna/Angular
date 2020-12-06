@@ -1,0 +1,9 @@
+<div *ngFor="let product of productList">
+    <a [routerLink]='["/view", product.id]'>
+        <h1>{{product.name}}</h1>
+        <h4>{{product.description}}</h4>
+        <p>{{product.date | date}}</p>
+        <small>{{product .value}}</small>
+    </a>
+
+</div>

@@ -1,0 +1,21 @@
+<div>
+    <form #userForm="ngForm">
+        {{userForm.value | json}}
+        <div class="form-group">
+            <label for="name">Username</label>
+            <input required #userName="ngModel" [(ngModel)]="userDetails.name" type="text" class="form-control" name="username" id="name">
+            <small class="alert alert-danger" *ngIf="userName.touched && userName.invalid">Username is required</small>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input required #password="ngModel" [(ngModel)]="userDetails.password" type="password" class="form-control" name="password" id="password">
+        </div>
+        <button (click)="login()" class="btn btn-primary">Submit</button>
+        <button (click)="getAll()">GetAll</button>
+        <button (click)="post()">Post</button>
+        <a href="#"><span class="badge">Angular</span></a>
+    </form>
+</div>
+
+<a [routerLink]="['/add']">Add</a>
+<router-outlet></router-outlet>

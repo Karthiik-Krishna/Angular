@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Karthik",
+      "password": "Karthiik123"
+    },
+    {
+      "id": 2,
+      "name": "Venu",
+      "password": "Venu123"
+    },
+    {
+      "id": 3,
+      "name": "fff",
+      "password": "hhh"
+    },
+    {
+      "name": "jj",
+      "password": "kk",
+      "id": 4
+    },
+    {
+      "name": "uu",
+      "password": "oo",
+      "id": 5
+    },
+    {
+      "name": "sjvv",
+      "password": "sjvv123",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "name": "tshirt",
+      "description": "Description-1",
+      "value": 2100,
+      "date": "2020-06-05",
+      "id": 1
+    },
+    {
+      "name": "shirt",
+      "description": "Description-2",
+      "value": 3500,
+      "date": "2019-06-05",
+      "id": 2
+    },
+    {
+      "name": "Shorts",
+      "description": "Description-3",
+      "value": 4500,
+      "date": "2018-06-05",
+      "id": 3
+    },
+    {
+      "name": "Track",
+      "description": "Puma Track",
+      "value": 1000,
+      "date": "2020-10-26",
+      "id": 4
+    }
+  ]
+}

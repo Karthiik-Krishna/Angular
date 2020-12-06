@@ -1,0 +1,19 @@
+<div>
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" [(ngModel)]="product.name" #name="ngModel">
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <input type="text" class="form-control" [(ngModel)]="product.description" #name="ngModel">
+    </div>
+    <div class="form-group">
+        <label>Value</label>
+        <input type="number" class="form-control" [(ngModel)]="product.value" #name="ngModel">
+    </div>
+    <div class="form-group">
+        <label>Date</label>
+        <input type="date" class="form-control" [(ngModel)]="product.date" #name="ngModel">
+    </div>
+    <button (click)="updateProduct()">Update</button>
+</div>
